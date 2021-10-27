@@ -1,7 +1,7 @@
 <x-email-layout>
   <h1 class="text-2xl">Ihre Abschlussrechnung</h1>
 
-  <p class="my-2">Vielen Dank für ihr Buchung bei {{ $order->venue->name }}.</p>
+  <p class="my-2">Vielen Dank für Ihre Buchung beim {{ $order->venue->name }}.</p>
 
   <p class="my-2">
     Im Anhang erhalten Sie ihre Reservierungsbestätigung mit der Bitte
